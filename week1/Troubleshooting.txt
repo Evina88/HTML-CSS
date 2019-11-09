@@ -1,0 +1,13 @@
+Regarding this h/w I would like to share here the problems I have encountered and the questions that came up.
+
+1. While creating a background picture, I observed that when I tried to use alt "description-in-case-the-loading-fails", the background image was not visible anymore. I thought about it and searched a bit. The answer I came up with is that when you use a background picture you do not need to use an alt attribute. So I left it there.
+
+2.I had a very hard time to make the background pisture the size that I wanted. During the dash.assembly lesson, writing background-size:cover/background-position:center seemed to do the trick perfectly. But not in my experience. The picture was not big enough to cover the background and it repeated itself to fill the space. That is how I learned background-repeat:no repeat. But stil I spent the better part of 3 hours just to solve this unsuccesfully. I ended up giving it a height attribute so it won't only show the bottom part of the window and a black background to cover up the space that was blank. Ihave to admit that I'm not happy with this result but I had to leave it there in order to go on.
+
+3. I used table properties for my personal information because it always seems like a good idea whenever I want to present data in 2 columns and make them look all nice and centered. I'm not sure thought that this is the right way to deal with this and wonder if it will always work out.
+
+4.I used a great deal of position, padding and margin to align the information. It was a nasty headache. I used the inspector a lot for this but I found out that even though I have styled the things I wanted in it, viewed the results and then went back to my code and made the exact same changes, the outcome was different. I still haven't figured out why and it made me a little more reluctant to use it.
+
+5.Finally, I know I was supposed to add a picture of me but I couldn't find an appropriate one. I am also aware I was supposed to write more about my education and skills, but since I graduated as a kindergarden teacher, I thought that this info would look irrelevant to a web developer's resume and I ommited it. I have no other education as a web developer and no previous experience, so I ommited that too.
+
+6.Since I made one list about the learning strategies, I didn't want to waste any more time to make another about important platforms/resources (sorry!). You already know that I know how to create a list so..Now you got to see that I learned how to use flexbox a bit too. Although I had to search in order to manage the width of the 3 items included. But it paid off! 
