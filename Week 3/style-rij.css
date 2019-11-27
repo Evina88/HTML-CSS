@@ -1,0 +1,302 @@
+body{font-family: "RO Sans",Calibri,sans-serif;
+width: 100%;}
+header{
+    background-color:white;
+    width:100%;
+           }
+#logo{
+    margin: 0px 0px 0px 0px;
+    text-align:center;
+    height:125px;} 
+img{display:inline-flex;height:125px;}
+/*.container-fluid{
+    display:flex;
+    flex-direction:row;  
+    background-color: #01689b;
+    height: 70px;
+    width:100%;   }
+    .nav-item{color:white;list-style-type: none;margin:20px;}
+.navbar-nav-navbar-right{ 
+    display:flex;
+    flex-direction:row; 
+    justify-content: flex-end;
+    align-items:center;
+    font-size: 1.2rem;
+    /*and since with flex it wouldn't align right, I did it it the wrong way with margin
+    margin-left:280px;}
+    .navbar-nav , h1{margin-left:10px;font-size:1.625rem; font-weight:normal;display:flex;align-items:center;left:0;right:}
+    justify-content:space-around;margin:10px 10px 10px 10px*/
+
+.nav-item_nav-link {text-decoration: none;color:white; margin:20px 20px 20px 20px; display:flex;font-size:1.2rem;}
+.nav-item_nav-link_active{text-decoration: none;color:white;
+    font-size:1.625rem; font-weight:normal;margin:10px 10px 10px 10px;padding-right:300px;display:flex;justify-content: flex-start;}
+.navbar-nav{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    justify-content: space-between;
+   }
+a :hover{
+        text-decoration:underline;color:white;}
+
+#header-img{ 
+background-image: url("./images/minimumlonen-.jpg");
+background-size:cover;
+background-position: center;
+width: 100%;
+position:absolute;
+height:42%;}
+.wrapper{
+    position:relative;
+    left:20px;
+    top:20px;
+    background-color:white;
+    width:27%;
+padding:10px;}
+.wrapper ul li a{
+    font-family: "RO Sans",Calibri,sans-serif;
+    font-size:1.625 rem;
+    font-weight:bold;
+    padding:10px 0px 20px 0px;
+color:#767676;
+text-decoration:none;}
+h2{ padding-left:1em;
+    margin-bottom: 0.755em;
+    line-height: 1.55rem;
+    font-size: 1.625rem;}
+.arrow li{list-style-type: none;}
+/*ul.arrow {
+	li {
+		&::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 6px;
+			height: 5px;
+			width: 5px;
+			border: 1px solid $main_color;
+			border-width: 2px 2px 0 0;
+            transform: rotate(45deg);} }
+took that out of codepen https://codepen.io/hajududat/pen/mAxNXV but it doesn't work*/
+p.copyright{
+    font-family: "RO Sans",Calibri,sans-serif;
+    color:white;
+    position:relative;
+    padding:5px;
+left:15px;
+top:15px;}
+
+.search input[type=text]{
+    position:relative;
+    bottom:14em;
+    float: right;
+    right:20px;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;}
+.search button
+{float: right;
+    position:relative;
+    bottom:10em;
+    left:221px;
+background:white;
+font-size:20px;
+border: none;
+cursor: pointer;
+color:black;
+}/*tried to make it reading https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_searchbar3. failed. Even if it worked though and we could see the magnifying class I wouldn't have a clue on how to link it to make the search in the documents.*/
+.navItem a{text-decoration:none;list-style-type:none;}
+.editorialnav{
+    list-style-type:none; 
+    width:100%;
+    background-color: #f3f3f3;   
+}
+.navul {display:grid;
+    width:95%;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 0.3% 3%;}
+.navItem {width:100%;list-style-type: none;}
+.editorialnav, h3{
+    font-size: 1.45em;
+    line-height: 1.2em;
+    list-style-type: none;
+    font-weight: bold;
+    color: #01689b;
+width:100%;}
+.navItem , p{
+    width:100%;
+    font-family: "RO Sans",Calibri,sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.625em;
+    color:black;}
+hr {
+        display: block;
+        height: 1px;
+        border: 0;
+        border-top: 1px solid #ccc;
+        margin-left: 3em;
+        margin-right:3em;
+        margin-top:5em;}
+.uit{  margin-left: 1em;}
+.bricks{
+    margin-left: 3em;
+    margin-right:3em;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 0.3% 3%;}
+.brick-image img{
+    width: 100%;
+    height:60.8%;
+    margin: 5px 0px 5px 0px;}
+.brick-text a{text-decoration:none;}
+.brick-text h3{margin:0 0 0 0;font-size:1.75rem;word-break: break-word;font-weight:normal;}
+.brick-text p{font-size:1rem;word-break: break-word;}
+
+#nieuws a{text-decoration:none;}
+#nieuws{
+    margin-left: 3em;
+    margin-right:3em;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 0.3% 3%;}
+.nb,h3{color: #01689b;font-size:28px;margin-bottom:10px;font-weight:normal;}
+.publ{font-weight:bold;}
+.nb,p{font-size:16px;margin-bottom:13px;}
+.more a {font-size:18px;margin-left: 3em;
+    margin-right:3em;font-weight:bold;text-decoration:none;}
+.boxes{display:grid;
+grid-template-columns:auto auto auto;}
+#block1{margin-left: 3em;
+    margin-right:3em;
+text-align:center;
+border: solid 5px #cbd2e3;
+width:70%;}
+#block1 a{text-decoration: none;}
+#block1, h3{font-weight:bold;color:#01689b;}
+.n{font-size:31px;margin:0px 0px 5px 0px ;}
+#block1, p{color:black;font-size:21px;}
+#block2{text-align:center;
+    border: solid 5px #cbd2e3;
+    width:70%;
+font-size:23px;}
+#block2 h2{font-weight:none;color:black;}
+#block2 .purple{font-weight:bold;font-size:31px;color:#a90061;padding-top:2rem;}
+#block2 a{text-decoration: none;}
+
+.footer a {text-decoration:none;color:white;} 
+.footer h2{color:white;padding-top:30px;font-weight:normal;font-family: "RO Serif";font-style: italic;line-height: 1.2381;grid-column: 1/ span 2;} 
+.footer h3{color:white;font-size:27px;} 
+.footer li{list-style-type: none;font-size:18px;font-weight:normal;} 
+.footer{background-color:#01689b;display:grid;margin-top:10px;grid-template-rows: auto auto auto;padding-bottom:30px;}
+#col1{grid-column: 2/ span 1;}
+#col2{grid-column: 3/ span 1;}
+.over{margin-left:40px;}
+.languages a{text-decoration:none;}
+.languages ul{list-style-type: none;
+display:flex;justify-content:center;}
+.rest a{color: #007bc7;}
+.rest{font-size:1.3em;padding:5px 10px 5px 10px;border: 1px solid #b2d7ee;margin: 10px 10px 10px 10px; }
+.selected{font-weight:bold;font-size:1.3em;padding:5px 10px 5px 10px;margin: 10px 10px 10px 10px;}
+
+@media only screen and (max-width:480px){
+body{width:100%;font-family: "RO Serif";}
+header{width:100%;}
+img{display:inline-flex;}
+#logo{text-align:right;}
+nav.navbar.navbar-expand-lg.navbar-light{padding-bottom:50px;}
+.navbar-nav{justify-content:normal;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}
+.nav-item_nav-link_active {text-align:left;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;font-size:20px;}
+.wrapper{position:relative;width:90%;padding-left: 20px;
+    font-weight: bold;
+    font-size: 1.125rem;
+    text-decoration: none;
+    word-wrap: break-word;}
+#header-img{height:90%;}
+.wrapper h2{font-size: 1.325em;
+    line-height: 1.875rem;
+    font-weight: normal;}
+.nav-item_nav-link{
+    border-top: 1px solid #fff;}
+.search input[type=text] {
+    position:relative;
+    bottom:18.5em;
+    width:92%;
+margin:0px 0px 0px 0px;
+padding:0px;
+height:30px;}
+.search {background-color:#007bc7;}
+.copyright{font-size:13px;margin-top:10px;}
+.editorialnav h3{font-size:21px;font-weight:bold;margin:0px;padding:0px 5px 0px 0px;}
+.navItem p{font-size:16px;line-height: 1.375em;}
+.navul{display:block;width:100%;padding:40px 10px 10px 30px;
+margin-bottom:60px;}
+.uit{font-size:26px;margin:-5px 15px 20px;width:98%;padding-left:0px;font-weight:bold;}
+hr{width:98%;margin: 0px 0px 0px 7px;padding:0px 0px 0px 0px;}
+.bricks{display:grid;grid-template-columns: auto auto; grid-gap: 1.3% 5%;margin-left:15px;margin-right:15px;}
+.brick-image img{height:39.5%;}
+.brick-text p{margin-right:10px;}
+.brick-text h3{margin: 10px 0px 10px 0px;}
+.nieuwsh h2{font-size:1.625rem;line-height: 1.2381;font-weight:bold;}
+#nieuws {display:grid; grid-template-columns: auto auto;margin-left:15px;margin-right:15px;text-align:left;grid-gap: 1.3% 5%;}
+.nb h3{font-size: 1.75rem;
+    line-height: 2rem;
+    font-weight: normal;
+    margin: 0 15px 10px 5px;
+    word-break: break-word;}
+.nb p {margin-left:5px;margin-right:5px;font-size:1rem;    line-height: 1.375rem;word-break: break-word;text-align:left;}
+.more a{margin-left:15px;color:#767676;}
+.boxes{display:grid; grid-template-columns: auto auto;margin-bottom:80px;}
+#block1{width:90%;border: solid 3px #cbd2e3;margin-left:15px;padding:0px 30px 0px 30px;}
+#block1 h3{font-size:20px;color:#1b5e84;}
+#block1, p {font-size:15px;color:black;}
+.n{color:#1b5e84;font-size:21px;margin-top:-15px;}
+#block2 h2{color:black;font-size:15px;padding-top:10px;font-weight:normal;}
+#block2 .purple{font-size:25px;padding-top:2px;}
+#block2{border: solid 3px #cbd2e3;width:90%;padding-right:15px;justify-content:center;display:flex;}
+.footer h2{font-size:1.75em;padding-right:0px;display:grid;grid-column: 1/ span 4;padding-top:50px;padding-bottom:20px;}
+.footer li{font-size:100%;text-align:left;}
+#col1{grid-column:1/span 1;margin-left:20px;}
+#col1 h3,#col2 .over{font-size:20px;font-weight:normal;}.languages{font-size:0.75em;}
+.rest{padding: 10px 5px 10px 5px;margin:5px 10px 5px 10px;text-align:center;}
+.languages ul{display:flex;flex-wrap:wrap;}}
+
+@media only screen and (min-width:481px) and (max-width:768px){
+
+body{width:100%}
+header{100%}
+#logo{display:flex;justify-content: center;}
+.wrapper{width:35%;}
+.wrapper ul li a{font-size:18px;padding: 0px 30px 10px 0px;}
+.wrapper h2{font-size:20px;}
+#header-img{height:120%;}
+p.copyright{font-size:13px;}
+.search input[type=text]{bottom:20.5em;}
+.navul{display:grid;grid-template-columns: auto auto; grid-gap: 1.3% 5%;;width:100%;padding:0px 10px 60px 30px;margin-bottom:60px;}
+.editorialnav h3{ font-size: 1.3125em;
+    font-weight: bold;
+    line-height: 1.2381;}
+.navItem p{font-size:16px;line-height: 1.375em;}
+.uit{font-size:26px;margin:-5px 15px 20px;width:98%;padding-left:0px;font-weight:bold;}
+hr{width:98%;margin: 0px 0px 0px 17px;padding:0px 0px 0px 0px;}
+.bricks{display:grid;grid-template-columns: auto auto; grid-gap: 1.3% 5%;margin-left:15px;margin-right:15px;}
+#nieuws {display:grid; grid-template-columns: auto auto;margin-left:15px;margin-right:15px;text-align:left;grid-gap: 1.3% 5%;}
+.nb h3{font-size:28px;font-weight:normal;}
+.nieuwsh h2{font-size:1.5rem;padding-left:0.7em;}
+.nb p{font-size:16px;}
+.more a{margin-left:1em;}
+.boxes{display:grid; grid-template-columns: auto auto;margin-bottom:80px;justify-content:center;}
+#block2{border: solid 3px #cbd2e3;width:90%;padding-right:15px;justify-content:center;display:flex;}
+#block1{width:90%;border: solid 3px #cbd2e3;margin-left:15px;padding:0px 30px 0px 30px;}
+/* won't bother with this layout more. they are not simple divs so it will be waste of time. */
+.footer h2{grid-column: 1/span 1;font-size:28px;margin-right:20px;} 
+#col1, #col2{margin-top:30px;font-size:16px;font-weight:normal;margin-right:40px;}
+.footer li{text-align:left;display:flex;flex-wrap:wrap;}
+#col1 h3,#col2 .over{font-size:20px;}
+.languages{font-size:0.75em;}
+.rest{padding: 10px 5px 10px 5px;margin:25px 10px 5px 10px;text-align:center;}
+.languages ul{display:flex;flex-wrap:wrap;}
+.selected{margin:30px 10px 5px 10px;}
+}
